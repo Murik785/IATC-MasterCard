@@ -1,0 +1,47 @@
+.body{
+    margin: 0 auto;
+    padding: 0;
+    /* float: left; */
+}
+
+.card{
+    width: 500px;
+    height: 300px;
+    /* background: white; */
+    border-radius: 15px;
+    margin-left: 500px;
+    margin-top: 200px;
+    font-size: 16px;
+    box-shadow: 2px 2px 20px #707070;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1{
+    width: 240px;
+    height: 240px;
+    background: #CC0000;
+    border-radius: 50%;
+    position: absolute;
+    right: 204px;
+    opacity: 0.9;
+}
+
+.c2{
+    width: 240px;
+    height: 240px;
+    background: #FF9900;
+    border-radius: 50%;
+    position: absolute;
+    left: 204px;
+    opacity: 0.85;
+} 
+
+.name{
+    position: absolute;
+    top: 245px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 150%;
+}
